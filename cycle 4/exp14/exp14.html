@@ -1,0 +1,39 @@
+
+<!Doctype html>
+<html>
+ <head>
+  <title>light</title>
+  <style>
+  img
+  {
+   width:300px;
+   height:300px;
+  }
+  body
+  {
+   background-color:black;
+  }
+  </style>
+
+ </head>
+ <body>
+  <img src="pic_bulboff.gif" alt="off" id="img">
+ 
+  <div id="one">
+   <button id="on" >Turn On</button>
+   <button id="off">Turn off</button>
+  </div>
+  <script>
+
+document.getElementById("on").addEventListener("click",()=>
+{
+ document.getElementById("img").src="pic_bulbon.gif"
+})
+document.getElementById("off").addEventListener("click",()=>
+{
+ document.getElementById("img").src="pic_bulboff.gif"
+})
+</script>
+
+ </body>
+</html>

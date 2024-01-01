@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>BIO-DATA
+</title>
+<style>
+body{
+background-color:yellow;
+}
+h1{
+text-align:center;
+color:red;
+}
+h2{
+color:white;
+background-color:blue;
+}
+p{
+border-width:3px;
+border-color:#100a10;
+border-style:solid;
+}
+</style>
+</head>
+<body>
+<h1>ANTO ANTONY TOM </h1>
+<ul>
+<li>
+<h3>Personal details</h3>
+<h2>Pottananiyil House<br>
+Nedumkandam PO,Nedumkandam<br>
+Idukki,Kerala<br></h2>
+</li>
+<li><h3>HOBBIES</h3>
+<h2><ol>
+<li>Playing</li>
+<li>Reading</li>
+<li>Writing</li>
+</ol></h2></li>
+</ul>
+<ul type="none">
+<li><p>Phone Number: 9847440838</p></li>
+<li><p>Mail ID: antoantonytom@gmail.com</p>
+</li>
+</ul>
+</body>
+</html>
+
